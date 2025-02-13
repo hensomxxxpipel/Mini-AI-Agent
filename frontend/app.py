@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 st.set_page_config(page_title="Chatbot LLM", layout="centered")
-st.title("Chatbot dengan LangChain & FastAPI")
+st.title("Mini Chatbot")
 
 user_input = st.text_area("Masukkan pertanyaan:")
 if st.button("Kirim"):
